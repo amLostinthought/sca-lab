@@ -21,7 +21,7 @@ pytest = "*"
 black = "*"
 isort = "*"
 mypy = "*"
-gunicorn = "^23.0.0"
+gunicorn = ">=23,<27"
 loguru = "^0.7.2"
 
 [tool.poetry.scripts]
